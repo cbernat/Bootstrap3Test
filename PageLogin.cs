@@ -81,6 +81,7 @@ namespace Test.LanderTestFW.Pages
             wait.Until((d => Password.Displayed));
             Password.Clear();
             Password.SendKeys(value);
+            ///write("Lalalalalaa");
         }
 
         public void setNewEmail(string value)
